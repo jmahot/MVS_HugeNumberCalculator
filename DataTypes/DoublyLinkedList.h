@@ -1,6 +1,3 @@
-#ifndef DOUBLY_LINKED_LIST
-#define DOUBLY_LINKED_LIST
-
 typedef unsigned short Digit;
 
 typedef struct Node {
@@ -27,4 +24,3 @@ extern void              removeEndFromDoublyLinkedList    (DoublyLinkedList* dou
 extern Digit             getDigitByPlaceFromStart         (const DoublyLinkedList* doublyLinkedList, const unsigned int place);
 
 #endif // !DOUBLY_LINKED_LIST
-
